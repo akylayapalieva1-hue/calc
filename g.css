@@ -8,7 +8,7 @@ body {
 }
 
 .calc {
-  background: #966788;
+  background: #201a1f;
   padding: 20px;
   border-radius: 15px;
   width: 260px;
@@ -41,7 +41,7 @@ button {
 
 .op {
   background: rgb(199, 61, 40);
-  color: white;
+  color: rgb(63, 20, 20);
 }
 
 .eq {
