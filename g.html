@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="g.css">
+</head>
+<body>
+
+<div class="calc">
+  <input type="text" id="display" disabled>
+
+  <div class="btns">
+    <button onclick="clearDisplay()" class="clear">C</button>
+    <button onclick="lue('/')" class="op">/</button>
+    <button onclick="lue('*')" class="op">*</button>
+
+    <button onclick="lue('7')">7</button>
+    <button onclick="lue('8')">8</button>
+    <button onclick="lue('9')">9</button>
+    <button onclick="lue('-')" class="op">-</button>
+
+    <button onclick="lue('4')">4</button>
+    <button onclick="lue('5')">5</button>
+    <button onclick="lue('6')">6</button>
+    <button onclick="lue('+')" class="op">+</button>
+
+    <button onclick="lue('1')">1</button>
+    <button onclick="lue('2')">2</button>
+    <button onclick="lue('3')">3</button>
+
+    <button onclick="lue('0')">0</button>
+    <button onclick="lue('.')">.</button>
+    <button onclick="calculate()" class="eq">=</button>
+  </div>
+</div>
+
+<script src="g.js"></script>
+</body>
+</html>
